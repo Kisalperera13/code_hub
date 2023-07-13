@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.code_hub.Python__ConditionalStatements_1Controller">
+   <children>
+      <Button fx:id="back_btn" layoutX="868.0" layoutY="549.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Back" />
+      <ImageView fitHeight="286.0" fitWidth="708.0" layoutX="30.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/python/python__if_elseIf_3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="662.0" layoutX="42.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/python/python__if_elseIf_4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="281.0" fitWidth="661.0" layoutX="52.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/python/python__if_elseIf_5.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="796.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/python/python_else_if_icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.code_hub.CoursesController">
+   <children>
+      <Button fx:id="html_btn" contentDisplay="CENTER" layoutX="120.0" layoutY="128.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="114.0" prefWidth="261.0" style="-fx-alignment: LEFT; -fx-background-color: transparent; -fx-border-color: #919191;" text="HTML " textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="296.0" layoutY="29.0" text="These courses are available for you">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Group layoutX="141.89999389648438" layoutY="190.89999389648438" />
+      <Button fx:id="python_btn" contentDisplay="CENTER" layoutX="541.0" layoutY="337.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="114.0" prefWidth="261.0" style="-fx-alignment: LEFT; -fx-background-color: transparent; -fx-border-color: #919191;" text="Python" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="77.0" fitWidth="79.0" layoutX="707.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/python_icon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="css_btn" contentDisplay="CENTER" layoutX="539.0" layoutY="127.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="114.0" prefWidth="261.0" style="-fx-alignment: left; -fx-background-color: transparent; -fx-border-color: #919191;" text="CSS" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="77.0" fitWidth="79.0" layoutX="703.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/css_icon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="c_btn" contentDisplay="CENTER" layoutX="122.0" layoutY="336.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="114.0" prefWidth="261.0" style="-fx-alignment: LEFT; -fx-background-color: transparent; -fx-border-color: #919191;" text="C" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="77.0" fitWidth="79.0" layoutX="288.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/c_icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="79.0" layoutX="286.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/html_icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="29.0" layoutX="703.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/code.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

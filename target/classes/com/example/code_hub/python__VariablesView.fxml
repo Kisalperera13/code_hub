@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.code_hub.Python__VariablesController">
+   <children>
+      <ImageView fitHeight="378.0" fitWidth="579.0" layoutX="52.0" layoutY="-32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/python/python__variables_1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="back_btn" layoutX="840.0" layoutY="527.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Back" />
+      <ImageView fitHeight="358.0" fitWidth="767.0" layoutX="64.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/python/python__variables_2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="107.0" fitWidth="107.0" layoutX="655.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/python/python_variable_icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

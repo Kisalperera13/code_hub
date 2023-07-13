@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.code_hub.Python__ContentController">
+   <children>
+      <Label layoutX="76.0" layoutY="56.0" text="Python Course Content">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="375.0" fitWidth="440.0" layoutX="497.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/python_content_cover.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="intro_btn" layoutX="82.0" layoutY="138.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="1. Introduction">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="variables_btn" layoutX="83.0" layoutY="192.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="2. Variables">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="userIn_btn" layoutX="83.0" layoutY="247.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="3. User Input ">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="conditional_btn" layoutX="85.0" layoutY="351.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="5. Conditional Statements">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="back_btn" layoutX="870.0" layoutY="551.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Back">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="loops_btn" layoutX="85.0" layoutY="398.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="6. Loops">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="sysOut_btn" layoutX="85.0" layoutY="300.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="4. System Output">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="functions_btn" layoutX="86.0" layoutY="450.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="7. Functions">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
